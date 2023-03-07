@@ -5,6 +5,16 @@
         "name": "Tegrity",
         "url": "https://v036.github.io/unseen/",
         "description": "Tegrity Game Development",
-        "discord": "https://discord.gg/TzdFTSt7U3"
+        "discord": "https://discord.gg/TzdFTSt7U3",
+        "content": [
+            {
+                "image": "/",
+                "header": "Comming Soon",
+                "title": "Cube",
+                "description": "Learn More about the upcomming game: Cube",
+                "button_text": "Learn More",
+                "butto_url": "/"
+            }
+        ]
     }
 }

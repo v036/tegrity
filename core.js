@@ -11,7 +11,11 @@ http.onload = function(context) {
     
     title.innerText = metadata.home.title;
     favicon.setAttribute("href", metadata.home.favicon);
-    discord.setAttribute("href", metadata.home.discord)
+    discord.setAttribute("href", metadata.home.discord);
+
+    for (i = 0; i < metadata.home.content.length; i++) {
+        console.log(i);
+    }
 }
 
 http.open("GET", "/meta.json", true);
